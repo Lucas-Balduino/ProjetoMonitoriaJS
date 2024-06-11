@@ -1,83 +1,111 @@
+body {
+    background-color: #C6C6C6;
+}
 
-        body{
-            background-color: #C6C6C6;
-        }
-        .bloco{
-            background-color: #D9D9D9;
-            height: 50px;
-            border-radius: 5px;
-        }
-        .blocoForms{
-            background-color: #D9D9D9;
-            border-radius: 5px;
-            width: 40%;
-            margin: 3%;
-            padding: 2%;
-            float: left;
-        }
-        a{
-            text-decoration: none;
-            color: black;
-        }
-        .formatacao{
-            font-family: Arial, Helvetica, sans-serif ;
-            font-size: x-large;
-        }
-        .texto{
-            margin: 10px;
-            padding: 10px;
-        }
-        .decoracao{
-            width: 90%;
-            padding: 5px;
-            margin: 5px;
-            border-radius: 5px;
-            border: #FBFBFB;
-            background-color: #FBFBFB;
-            
-        }
-        .select{
-            width: 93%;
-        }
-        .formatacaoImput{
-            font-family: Arial, Helvetica, sans-serif ;
-            font-size: large;    
-        }
-        #Enviar{
-            width: 20%;
-        }
-        #Reset{
-            margin-left: 50%;
-            width: 20%;
-        }
-        .Esqueci{
-            color: grey;
-            font-family: Arial, Helvetica, sans-serif;       
-        }
-        .Esqueci:hover{
-            text-decoration: underline;
-        }
-        button{
-            margin: 7%;
-            height: 50px;
-            width: 50px;
-            border-radius: 100%;
-            border: #FBFBFB;
-            background-color: #FBFBFB;
-        }
-        .Entrar{
-            text-align: center;
-        }
+.bloco {
+    background-color: #D9D9D9;
+    height: 50px;
+    border-radius: 5px;
+}
 
-        #buttonsContainer{
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-        }
-        #inputsContainer{
-            display: flex;
-            flex-direction: column;
-        }
-        .inputContainer{
-            margin-bottom: 20px;
-        }
+.blocoForms {
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    width: 40%;
+    margin: 3%;
+    padding: 2%;
+    float: left;
+}
+
+.blocoContainer {}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.formatacao {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+.texto {
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+.formatacaoImput {}
+
+.Esqueci {
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.Esqueci:hover {
+    text-decoration: underline;
+}
+
+button {
+    margin: 7%;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: #FBFBFB;
+    background-color: #FBFBFB;
+}
+
+.Entrar {
+    text-align: center;
+}
+
+#buttonsContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#inputsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputContainer {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: #FBFBFB;
+    background-color: #FBFBFB;
+    height: 30px;
+}
+
+label,
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+#submitContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Enviar,
+#Reset {
+    padding-left: 10px;
+    padding-right: 10px;
+}
